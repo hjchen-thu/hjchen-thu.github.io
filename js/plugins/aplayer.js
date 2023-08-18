@@ -21,12 +21,16 @@ if (isMini) {
   const ap = new APlayer({
       container: document.getElementById('aplayer'),
       mini: true,
+      autoplay: true,
+      preload: 'auto',
       audio: audioList,
   });
 } else if (isFixed) {
   const ap = new APlayer({
       container: document.getElementById('aplayer'),
       fixed: true,
+      autoplay: true,
+      preload: 'auto',
       audio: audioList,
   });
 }
