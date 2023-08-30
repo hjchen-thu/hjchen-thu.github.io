@@ -22,15 +22,15 @@ if (isMini) {
       container: document.getElementById('aplayer'),
       mini: true,
       autoplay: true,
-      preload: 'auto',
       audio: audioList,
   });
+  ap.play()
 } else if (isFixed) {
   const ap = new APlayer({
       container: document.getElementById('aplayer'),
       fixed: true,
       autoplay: true,
-      preload: 'auto',
       audio: audioList,
   });
+  ap.play()
 }
