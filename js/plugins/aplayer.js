@@ -29,8 +29,7 @@ if (isMini) {
   const ap = new APlayer({
       container: document.getElementById('aplayer'),
       fixed: true,
-      autoplay: true,
+
       audio: audioList,
   });
-  ap.play()
 }
