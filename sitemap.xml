@@ -2,7 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/about/index.html</loc>
+    <loc>https://hjchen-thu.github.io/2023/09/02/hello-world%20copy%205/</loc>
+    
+    <lastmod>2023-09-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hjchen-thu.github.io/2023/09/02/hello-world%20copy%204/</loc>
+    
+    <lastmod>2023-09-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hjchen-thu.github.io/2023/09/02/hello-world%20copy%203/</loc>
+    
+    <lastmod>2023-09-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hjchen-thu.github.io/2023/09/02/hello-world%20copy%202/</loc>
+    
+    <lastmod>2023-09-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hjchen-thu.github.io/2023/08/16/hello-world/</loc>
+    
+    <lastmod>2023-09-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hjchen-thu.github.io/about/index.html</loc>
     
     <lastmod>2023-08-31</lastmod>
     
@@ -11,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/08/18/hello-world%20copy/</loc>
+    <loc>https://hjchen-thu.github.io/2023/08/18/hello-world%20copy/</loc>
     
     <lastmod>2023-08-17</lastmod>
     
@@ -19,18 +64,9 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>http://example.com/2023/08/16/hello-world/</loc>
-    
-    <lastmod>2023-08-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>https://hjchen-thu.github.io/</loc>
     <lastmod>2023-09-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
