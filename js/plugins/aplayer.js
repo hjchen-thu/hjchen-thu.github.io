@@ -17,6 +17,8 @@ for (const audio of Global.theme_config.plugins.aplayer.audios) {
 }
 
 
+
+
 if (isMini) {
   const ap = new APlayer({
       container: document.getElementById('aplayer'),
@@ -24,7 +26,6 @@ if (isMini) {
       autoplay: true,
       audio: audioList,
   });
-  ap.play()
 } else if (isFixed) {
   const ap = new APlayer({
       container: document.getElementById('aplayer'),
@@ -33,3 +34,41 @@ if (isMini) {
       audio: audioList,
   });
 }
+
+
+// import { createBot } from "botui"
+// import { BotUI, BotUIMessageList, BotUIAction } from "@botui/react"
+ 
+// const myBot = createBot()
+
+
+// const MyBot = () => {
+//   useEffect(() => {
+//     myBot
+//       .wait({ waitTime: 1000 })
+//       .then(() => myBot.message.add({ text: "hello, what is your name?" }))
+//       .then(() =>
+//         myBot.action.set(
+//           {
+//             options: [
+//               { label: "John", value: "john" },
+//               { label: "Jane", value: "jane" },
+//             ],
+//           },
+//           { actionType: "select" }
+//         )
+//       )
+//       .then((data) =>
+//         myBot.message.add({ text: `nice to meet you ${data.selected.label}` })
+//       )
+//   }, [])
+ 
+//   return (
+//     <div>
+//       <BotUI bot={myBot}>
+//         <BotUIMessageList />
+//         <BotUIAction />
+//       </BotUI>
+//     </div>
+//   )
+// }
