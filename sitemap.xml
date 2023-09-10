@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hjchen-thu.github.io/2020/09/09/LLM_accelerate/</loc>
+    
+    <lastmod>2023-09-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hjchen-thu.github.io/tags/index.html</loc>
     
     <lastmod>2023-09-08</lastmod>
@@ -11,25 +20,7 @@
   </url>
   
   <url>
-    <loc>https://hjchen-thu.github.io/2022/09/28/hello-world%20copy%202/</loc>
-    
-    <lastmod>2023-09-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hjchen-thu.github.io/2022/09/28/hello-world%20copy%203/</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hjchen-thu.github.io/2022/09/28/hello-world%20copy/</loc>
+    <loc>https://hjchen-thu.github.io/2022/09/28/chat_bear/</loc>
     
     <lastmod>2023-09-06</lastmod>
     
@@ -73,19 +64,10 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://hjchen-thu.github.io/2020/09/09/hello-world/</loc>
-    
-    <lastmod>2020-09-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://hjchen-thu.github.io/</loc>
-    <lastmod>2023-09-09</lastmod>
+    <lastmod>2023-09-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,7 +75,7 @@
   
   <url>
     <loc>https://hjchen-thu.github.io/tags/Hexo/</loc>
-    <lastmod>2023-09-09</lastmod>
+    <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -102,42 +84,42 @@
   
   <url>
     <loc>https://hjchen-thu.github.io/categories/Work-hard/</loc>
-    <lastmod>2023-09-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hjchen-thu.github.io/categories/Work-hard/haha/</loc>
-    <lastmod>2023-09-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hjchen-thu.github.io/categories/Work-hard/haha/lsee/</loc>
-    <lastmod>2023-09-09</lastmod>
+    <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hjchen-thu.github.io/categories/Play-harder/</loc>
-    <lastmod>2023-09-09</lastmod>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hjchen-thu.github.io/categories/Work-hard/haha/</loc>
+    <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hjchen-thu.github.io/categories/Play-harder/haha/</loc>
-    <lastmod>2023-09-09</lastmod>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hjchen-thu.github.io/categories/Work-hard/haha/lsee/</loc>
+    <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hjchen-thu.github.io/categories/Play-harder/haha/lsee/</loc>
-    <lastmod>2023-09-09</lastmod>
+    <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
