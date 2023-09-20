@@ -146,62 +146,80 @@
 
     <div class="home-banner-background transition-fade">
     </div>
+    
 
-
-<div class="home-banner-container flex justify-center items-center transition-fade">
-    <div class="content flex justify-center items-center">
-        <div class="description flex flex-col justify-center items-center"
-        
-        >
-            Welcome, traveler.
-            
-            
-                <p><i id="subtitle"></i></p>
-            
-        </div>
-
-
-        
-            <div class="social-contacts">
-                
-                    
-                        
-                            <span class="social-contact-item github">
-                                <a target="_blank" href="https://github.com/hjchen-thu">
-                                    <i class="fa-brands fa-github"></i>
-                                </a>
-                            </span>
-                        
-                    
-                
-                    
-                        
-                            <span class="social-contact-item zhihu">
-                                <a target="_blank" href="https://www.zhihu.com/people/baytoro">
-                                    <i class="fa-brands fa-zhihu"></i>
-                                </a>
-                            </span>
-                        
-                    
-                
-                    
-                        
-                            <span class="social-contact-item email">
-                                <a href="mailto:hjchen0725@hotmail.com">
-                                    <i class="fa-solid fa-envelope"></i>
-                                </a>
-                            </span>
-                        
-                    
+        <div class="home-banner-container flex justify-center items-center transition-fade">
+            <div class="content flex justify-center items-center">
+                <div class="description flex flex-col justify-center items-center" 
+                            >
+                            <div style="background: #ffffff94;font-size: 16px;color: #000; padding: 10px 20px;border-radius: 10px;margin-bottom: 50px;cursor: pointer;"
+                                onclick="Global.showPopup()">进入ChatGPT</div>
+                            Welcome, traveler.
+                                
+                                    
+                                        <p><i id="subtitle"></i></p>
+                                        
+                </div>
+                <div id="popup" style="position: fixed;
+    background: #fff;
+    width: 80%;
+    height: 60%;
+    border-radius: 23px;
+    box-shadow: 0px 0px 7px #141414;display: none;">
+                    <div style="padding: 10px 20px;
+    background: #d7dee2;
+    border-radius: 16px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;    display: flex;
+    justify-content: space-between;"><span>chatGPT</span><span style="cursor: pointer;"
+                            onclick="Global.closePopup()">x</span></div>
+                    <div style="width: 100%;
+    height: 100%;">
+                        <iframe src="http://rnd.tao-jiujiu.com/hexoblog/#/chat/null" frameborder="0" style="width: 100%;
+    height: 100%;"></iframe>
+                    </div>
+                </div>
                 
                 
+                    <div class="social-contacts">
+                        
+                            
+                                
+                                            <span class="social-contact-item github">
+                                                <a target="_blank"
+                                                    href="https://github.com/hjchen-thu">
+                                                    <i class="fa-brands fa-github"></i>
+                                                </a>
+                                            </span>
+                                            
+                                                
+                                                    
+                            
+                                
+                                            <span class="social-contact-item zhihu">
+                                                <a target="_blank"
+                                                    href="https://www.zhihu.com/people/baytoro">
+                                                    <i class="fa-brands fa-zhihu"></i>
+                                                </a>
+                                            </span>
+                                            
+                                                
+                                                    
+                            
+                                
+                                    <span class="social-contact-item email">
+                                        <a href="mailto:hjchen0725@hotmail.com">
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </a>
+                                    </span>
+                                    
+                                                
+                                                    
+                                                        
+                    </div>
+                    
             </div>
-        
-    </div>
-</div>
-
-
-
+        </div>
     
 
     <div class="main-content-container">
