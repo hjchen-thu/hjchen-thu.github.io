@@ -31,6 +31,14 @@ document.addEventListener("DOMContentLoaded", () => {
       JSON.stringify(Global.styleStatus),
     );
   };
+  
+  Global.showPopup = ()=>{
+    document.getElementById("popup").style.display = "block";
+  };
+  
+  Global.closePopup = () => {
+    document.getElementById("popup").style.display = "none";
+  };
 
   // get styleStatus from localStorage
   Global.getStyleStatus = () => {
