@@ -13,19 +13,23 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="https://hjchen-thu.github.io/tags/"/>
+    <link rel="canonical" href="https://hjchen-thu.github.io/2022/09/28/atm/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="https://hjchen-thu.github.io/tags/index.html">
+        <meta name="description" content="Recently, OpenAI’s release of ChatGPT has demonstrated outstanding performance, sparking a research frenzy in the field of Large Language Models (LLMs). The “large” in Large Language Models is reflect">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Analyzing Transformer Models: Parameters">
+<meta property="og:url" content="https://hjchen-thu.github.io/2022/09/28/ATM/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Recently, OpenAI’s release of ChatGPT has demonstrated outstanding performance, sparking a research frenzy in the field of Large Language Models (LLMs). The “large” in Large Language Models is reflect">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-09-06T16:45:51.000Z">
-<meta property="article:modified_time" content="2023-09-08T16:48:31.616Z">
+<meta property="article:published_time" content="2022-09-28T03:45:14.000Z">
+<meta property="article:modified_time" content="2023-09-30T14:44:12.712Z">
 <meta property="article:author" content="H.J. Chen">
+<meta property="article:tag" content="Transformer">
+<meta property="article:tag" content="AIGC">
 <meta name="twitter:card" content="summary">
     
     
@@ -38,7 +42,7 @@
     
     <title>
         
-            Tags -
+            Analyzing Transformer Models: Parameters -
         
         H.J. Chen&#39;s Blog
     </title>
@@ -410,36 +414,276 @@
             <div class="main-content">
 
                 
+                    <div class="post-page-container">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            
+                
+                
+                <img src="https://evan.beee.top/img/208184324-f2640ade-587a-4f46-8ad1-7b4c1b31394f.png" alt="Analyzing Transformer Models: Parameters" class="max-w-none"/>
+                
+                <h1 class="article-title-cover">Analyzing Transformer Models: Parameters</h1>
+            
+            </div>
+            
                     
-<div class="tagcloud-container">
-	
-	<div>
-		<h1 class="tagcloud-header">Tags</h1>
-	</div>
-	<div class="tagcloud-content">
-		<ul class="tag-list" data-show-value="true">
-			
-			<li>
-				<a data-weight="2" href="/tags/Transformer/"
-					><i class="fa-solid fa-hashtag"></i>Transformer</a
-				>
-			</li>
-			
-			<li>
-				<a data-weight="2" href="/tags/AIGC/"
-					><i class="fa-solid fa-hashtag"></i>AIGC</a
-				>
-			</li>
-			
-			<li>
-				<a data-weight="1" href="/tags/Hexo/"
-					><i class="fa-solid fa-hashtag"></i>Hexo</a
-				>
-			</li>
-			
-		</ul>
-	</div>
-	
+        
+        
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="/personal/avatar.svg">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">H.J. Chen</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2022-09-28 11:45:14</span>
+        <span class="mobile">2022-09-28 11:45:14</span>
+        <span class="hover-info">Created</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2023-09-30 22:44:12</span>
+            <span class="mobile">2023-09-30 22:44:12</span>
+            <span class="hover-info">Updated</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/Work-hard/">Work hard</a>&nbsp;
+                        </li>
+                    
+                    
+                
+                    
+                        
+                            <li>></li>
+                        
+                        <li>
+                            <a href="/categories/Work-hard/Note/">Note</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/Transformer/">Transformer</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/AIGC/">AIGC</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        
+
+
+        <div class="article-content markdown-body">
+            <p>Recently, OpenAI’s release of ChatGPT has demonstrated outstanding performance, sparking a research frenzy in the field of Large Language Models (LLMs). The “large” in Large Language Models is reflected in two aspects: the scale of model parameters and the scale of training data. Taking GPT-3 as an example, it boasts a staggering 175 billion parameters and was trained on a colossal dataset of 570 GB. Consequently, training Large Language Models faces two primary challenges: GPU memory efficiency and computational efficiency.</p>
+<p>In the current landscape of the industry, large language models are predominantly built upon the Transformer architecture. These models can be broadly categorized into two main types: encoder-decoder models (with T5 as a representative) and decoder-only models. Specifically, decoder-only structures can be further divided into Causal LM (exemplified by the GPT series) and Prefix LM (represented by models like GLM). Due to the tremendous success achieved by the GPT series, the majority of mainstream large language models opt for the Causal LM structure. As a result, this series of articles delve into an analysis of model parameters, computational complexity, intermediate activation values, and KV cache to gain a deeper understanding of the GPU memory efficiency and computational efficiency involved in training large language models.</p>
+<!-- For the purpose of analysis, let's define some mathematical symbols in advance. Let the number of layers in the Transformer model be denoted as 
+�
+L, the hidden layer dimension as 
+�
+D, the number of attention heads as 
+�
+H. The vocabulary size is 
+�
+V, the batch size for training data is 
+�
+B, and the sequence length is 
+�
+S. -->
+<h2 id="Parameters"><a href="#Parameters" class="headerlink" title="Parameters"></a>Parameters</h2><h3 id="Subtitle-2"><a href="#Subtitle-2" class="headerlink" title="Subtitle 2"></a>Subtitle 2</h3><p>wtf</p>
+<pre class="mermaid">  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;</pre>
+
+
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+
+        </div>
+
+        
+            <div class="post-copyright-info">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>Title:</strong> Analyzing Transformer Models: Parameters</li>
+        <li><strong>Author:</strong> H.J. Chen</li>
+        <li><strong>Created at
+                :</strong> 2022-09-28 11:45:14</li>
+        
+            <li>
+                <strong>Updated at
+                    :</strong> 2023-09-30 22:44:12
+            </li>
+        
+        <li>
+            <strong>Link:</strong> https://hjchen-thu.github.io/2022/09/28/ATM/
+        </li>
+        <li>
+            <strong>
+                License:
+            </strong>
+            
+            This work is licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>.
+            
+
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+            <ul class="post-tags-box">
+                
+                    <li class="tag-item">
+                        <a href="/tags/Transformer/">#Transformer</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item">
+                        <a href="/tags/AIGC/">#AIGC</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+
+        
+            <div class="article-nav">
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                        rel="next"
+                        href="/2022/09/28/chat_bear/"
+                        >
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">CodeBear: Your Personal AI Coding Assitant</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+
+        
+            <div class="comment-container">
+                <div class="comments-container pjax">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        <i class="fa-solid fa-comments"></i>&nbsp;Comments
+    </div>
+    
+
+        
+            
+ 
+    <div id="waline"></div>
+    <script type="module"  data-swup-reload-script>
+        import { init } from 'https://evan.beee.top/js/waline.mjs';
+
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'https://example.example.com',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+            });
+        }
+
+        if ('true') {
+            const loadWalineTimeout = setTimeout(() => {
+                loadWaline();
+                clearTimeout(loadWalineTimeout);
+            }, 1000);
+        } else {
+            window.addEventListener('DOMContentLoaded', loadWaline);
+        }
+        
+    </script>
+
+
+
+        
+    
+</div>
+
+            </div>
+        
+    </div>
+
+    
+        <div class="toc-content-container">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">On this page</div>
+        <div class="page-title">Analyzing Transformer Models: Parameters</div>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Parameters"><span class="nav-text">Parameters</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Subtitle-2"><span class="nav-text">Subtitle 2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol>
+
+    </div>
+</div>
+        </div>
+    
 </div>
 
 
@@ -515,6 +759,27 @@
         </div>
     </div>
 
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
     
 
     <div class="right-side-tools-container">
