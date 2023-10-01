@@ -30,19 +30,9 @@ export const main = {
       main.localStorageKey,
       JSON.stringify(main.styleStatus),
     );
-  };
-  
-  Global.showPopup = ()=>{
-    document.getElementById("popup").style.display = "block";
-  };
-  
-  Global.closePopup = () => {
-    document.getElementById("popup").style.display = "none";
-  };
-
-  // get styleStatus from localStorage
-  Global.getStyleStatus = () => {
-    let temp = localStorage.getItem(Global.localStorageKey);
+  },
+  getStyleStatus: () => {
+    let temp = localStorage.getItem(main.localStorageKey);
     if (temp) {
       temp = JSON.parse(temp);
       for (let key in main.styleStatus) {

@@ -5427,7 +5427,7 @@ html.is-animating .swup-progress-icon {
   visibility: visible;
 }
 .image-viewer-container.active img {
-  cursor: zoom-out;
+  cursor: grab;
   transform: scale(1);
   opacity: 1;
   padding: 2px;
