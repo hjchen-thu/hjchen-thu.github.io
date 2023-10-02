@@ -71,6 +71,12 @@ export const main = {
 export function initMain() {
   main.printThemeInfo();
   main.refresh();
+  Global.showPopup = ()=>{
+    document.getElementById("popup").style.display = "block";
+  };
+  Global.closePopup = () => {
+    document.getElementById("popup").style.display = "none";
+  };
 }
 
 document.addEventListener("DOMContentLoaded", initMain);
