@@ -71,10 +71,10 @@ export const main = {
 export function initMain() {
   main.printThemeInfo();
   main.refresh();
-  Global.showPopup = ()=>{
+  window.showPopup = ()=>{
     document.getElementById("popup").style.display = "block";
   };
-  Global.closePopup = () => {
+  window.closePopup = () => {
     document.getElementById("popup").style.display = "none";
   };
 }
