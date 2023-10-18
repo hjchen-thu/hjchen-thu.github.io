@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Analyzing Transformer Models: Flops</title>
+    <url>/2022/09/28/ATM_flops/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Work hard</category>
+        <category>Note</category>
+      </categories>
+      <tags>
+        <tag>Transformer</tag>
+        <tag>AIGC</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Analyzing Transformer Models: Parameters</title>
     <url>/2022/09/28/ATM_parameter/</url>
     <content><![CDATA[<p>Recently, OpenAI’s release of ChatGPT has demonstrated outstanding performance, sparking a research frenzy in the field of Large Language Models (LLMs). The “large” in Large Language Models is reflected in two aspects: the scale of model parameters and the scale of training data. Taking GPT-3 as an example, it boasts a staggering 175 billion parameters and was trained on a colossal dataset of 570 GB. Consequently, training Large Language Models faces two primary challenges: GPU memory efficiency and computational efficiency.</p>
@@ -90,22 +103,9 @@
       </tags>
   </entry>
   <entry>
-    <title>Analyzing Transformer Models: Flops</title>
-    <url>/2022/09/28/ATM_flops/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Work hard</category>
-        <category>Note</category>
-      </categories>
-      <tags>
-        <tag>Transformer</tag>
-        <tag>AIGC</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CodeBear: Your Personal AI Coding Assitant</title>
     <url>/2022/09/28/CodeBear/</url>
-    <content><![CDATA[<p>this is title.</p>
+    <content><![CDATA[<p>this is title.	</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure></div>
 
 <p>More info: <a class="link" href="https://hexo.io/docs/writing.html">Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
