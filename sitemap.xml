@@ -136,13 +136,6 @@
   </url>
   
   <url>
-    <loc>https://hjchen-thu.github.io/categories/Work-hard/haha/</loc>
-    <lastmod>2023-11-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://hjchen-thu.github.io/categories/Play-harder/haha/</loc>
     <lastmod>2023-11-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -150,14 +143,21 @@
   </url>
   
   <url>
-    <loc>https://hjchen-thu.github.io/categories/Work-hard/haha/lsee/</loc>
+    <loc>https://hjchen-thu.github.io/categories/Play-harder/haha/lsee/</loc>
     <lastmod>2023-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hjchen-thu.github.io/categories/Play-harder/haha/lsee/</loc>
+    <loc>https://hjchen-thu.github.io/categories/Work-hard/haha/</loc>
+    <lastmod>2023-11-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hjchen-thu.github.io/categories/Work-hard/haha/lsee/</loc>
     <lastmod>2023-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
