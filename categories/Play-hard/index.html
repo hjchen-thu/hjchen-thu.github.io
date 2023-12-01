@@ -374,46 +374,38 @@
             <div class="main-content">
 
                 
-                    <div class="category-container">
-    <div class="category-name">
-        <i class="fa-solid fa-folder"></i>&nbsp;Play hard
-    </div>
-    <div class="category-post-list">
-        
+                    @import '../common/variables'
 
-<div class="archive-list-container">
-    
-        <section class="archive-item">
-            <div class="archive-item-header">
-                <span class="archive-year">2022</span>
-                <span class="archive-year-post-count">[1]</span>
-            </div>
-            <ul class="article-list">
-              
-                
-                    
-                    <li class="article-item" date-is='09-28'>
-                
-                
-                    <a href="/2022/09/28/CodeBear/">
-                        <span class="article-title">CodeBear: Your Personal AI Coding Assitant</span>
-                    </a>
-                
-              
-            </ul>
-        </section>
-    
-</div>
+$category-name-font-size = 2.8rem
 
-    </div>
-</div>
-<div class="category-paginator">
-    <div class="paginator">
-    <span class="page-number current">1</span>
-</div>
+.category-container
+  redefine-container(
+    false,
+    0,
+    0,
+    30px,
+    30px
+  )
 
-</div>
 
+
+  .category-name
+    color var(--second-text-color)
+    font-size $category-name-font-size
+
+    i
+      color var(--second-text-color)
+
+    +redefine-tablet()
+      font-size: $category-name-font-size * 0.9
+
+    +redefine-mobile()
+      font-size: $category-name-font-size * 0.8
+
+    font-weight 600
+    padding-bottom 20px
+    margin-bottom $spacing-unit
+    border-bottom 1px solid var(--shadow-color-1)
 
 
                 
