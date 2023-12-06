@@ -110,20 +110,6 @@
 
   
   <url>
-    <loc>https://hjchen-thu.github.io/tags/Transformer/</loc>
-    <lastmod>2023-12-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hjchen-thu.github.io/tags/AIGC/</loc>
-    <lastmod>2023-12-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://hjchen-thu.github.io/tags/LLMs/</loc>
     <lastmod>2023-12-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -131,7 +117,21 @@
   </url>
   
   <url>
+    <loc>https://hjchen-thu.github.io/tags/Transformer/</loc>
+    <lastmod>2023-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://hjchen-thu.github.io/tags/Quantization/</loc>
+    <lastmod>2023-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hjchen-thu.github.io/tags/AIGC/</loc>
     <lastmod>2023-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -175,7 +175,7 @@
   </url>
   
   <url>
-    <loc>https://hjchen-thu.github.io/categories/Play-hard/</loc>
+    <loc>https://hjchen-thu.github.io/categories/Work-hard/Research/</loc>
     <lastmod>2023-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -189,7 +189,7 @@
   </url>
   
   <url>
-    <loc>https://hjchen-thu.github.io/categories/Work-hard/Research/</loc>
+    <loc>https://hjchen-thu.github.io/categories/Play-hard/</loc>
     <lastmod>2023-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
