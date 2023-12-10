@@ -1,4 +1,4 @@
-https://hjchen-thu.github.io/2020/09/28/Speculative%20Decoding/
+https://hjchen-thu.github.io/2023/09/28/Speculative%20Decoding/
 https://hjchen-thu.github.io/2023/03/28/AccLLMs/
 https://hjchen-thu.github.io/2020/09/28/Template/
 https://hjchen-thu.github.io/2022/09/28/CodeBear/
@@ -12,13 +12,12 @@ https://hjchen-thu.github.io/masonry/index.html
 https://hjchen-thu.github.io/
 https://hjchen-thu.github.io/tags/Transformer/
 https://hjchen-thu.github.io/tags/AIGC/
-https://hjchen-thu.github.io/tags/LLMs/
+https://hjchen-thu.github.io/tags/LLM/
 https://hjchen-thu.github.io/tags/Quantization/
-https://hjchen-thu.github.io/tags/Parallel-Decoding/
 https://hjchen-thu.github.io/tags/Attention/
 https://hjchen-thu.github.io/tags/CUDA/
 https://hjchen-thu.github.io/tags/Triton/
 https://hjchen-thu.github.io/categories/Work-hard/
+https://hjchen-thu.github.io/categories/Play-hard/
 https://hjchen-thu.github.io/categories/Work-hard/Note/
 https://hjchen-thu.github.io/categories/Work-hard/Research/
-https://hjchen-thu.github.io/categories/Play-hard/
